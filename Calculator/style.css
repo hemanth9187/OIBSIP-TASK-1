@@ -1,0 +1,78 @@
+
+body {
+  background-image: url("calci.jpg"); /* Relative path to your background image */
+  background-size: cover; /* Adjust how the background image is displayed */
+}
+
+  .calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 450px;
+    width: 400px;
+    margin: auto;
+    background-color: #5dabbe;
+    box-shadow: rgba(130, 127, 127, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+  
+  .display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #c4baf5;
+    border: solid rgb(227, 94, 94) 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    height: 65%;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 24px; 
+  }
+  
+  #btn {
+    background-color: #d16148;
+    color: #050505;
+  }
+  
+ /* Keep the existing style for round buttons */
+input[type=button].round {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #0e0c10;
+  color: white;
+  border: solid black 0.5px;
+  width: 70px; 
+  height: 70px; 
+  border-radius: 50%; 
+  outline: none;
+}
+
+
+input[type=button].rect-c {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #ded6d6;
+  color: #050505;
+  border: solid black 0.5px;
+  width: 100%; 
+  height: 50px; 
+  border-radius: 5px; 
+  outline: none;
+}
+
+input[type=button].rect-equal {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #ded6d6;
+  color: #050505;
+  border: solid black 0.5px;
+  width: 100%; 
+  height: 70px;
+  border-radius: 5px; 
+  outline: none;
+}
+
+  
+  
+  input:active[type=button] {
+    background: #161515;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+  }
+  

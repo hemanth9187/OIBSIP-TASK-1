@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Simple Calculator using HTML, CSS and JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <table class="calculator">
+    <tr>
+      <td colspan="3">
+        <input class="display-box" type="text" id="result" disabled />
+      </td>
+      <td>
+        <input type="button" value="C" onclick="clearScreen()" class="rect-c" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="button" value="1" onclick="display('1')" class="round" />
+      </td>
+      <td>
+        <input type="button" value="2" onclick="display('2')" class="round" />
+      </td>
+      <td>
+        <input type="button" value="3" onclick="display('3')" class="round" />
+      </td>
+      <td>
+        <input type="button" value="/" onclick="display('/')" class="round" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="button" value="4" onclick="display('4')" class="round" />
+      </td>
+      <td>
+        <input type="button" value="5" onclick="display('5')" class="round" />
+      </td>
+      <td>
+        <input type="button" value="6" onclick="display('6')" class="round" />
+      </td>
+      <td>
+        <input type="button" value="-" onclick="display('-')" class="round" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="button" value="7" onclick="display('7')" class="round" />
+      </td>
+      <td>
+        <input type="button" value="8" onclick="display('8')" class="round" />
+      </td>
+      <td>
+        <input type="button" value="9" onclick="display('9')" class="round" />
+      </td>
+      <td>
+        <input type="button" value="+" onclick="display('+')" class="round" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="button" value="." onclick="display('.')" class="round" />
+      </td>
+      <td>
+        <input type="button" value="0" onclick="display('0')" class="round" />
+      </td>
+      <td>
+        <input type="button" value="*" onclick="display('*')" class="round" />
+      </td>
+      <td>
+        <input type="button" value="=" onclick="calculate()" class="rect-equal" />
+      </td>
+ 
+    </tr>
+  </table>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
